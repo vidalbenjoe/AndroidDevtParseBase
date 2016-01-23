@@ -9,8 +9,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vainsolutions.myfirstparseproject.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <EditText
+        android:id="@+id/titleTxv"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Title" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/titleTxv"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/refreshListBt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/submitBtn"
+        android:text="Refresh List" />
+
+
+    <ListView
+        android:id="@+id/arrayLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/refreshListBt"></ListView>
+
 </RelativeLayout>
