@@ -3,7 +3,6 @@ package com.vainsolutions.myfirstparseproject;
 import android.app.Application;
 
 import com.parse.Parse;
-import com.parse.ParseObject;
 
 /**
  * Created by vidalbenjoe on 23/01/2016.
